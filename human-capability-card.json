@@ -1,0 +1,63 @@
+{
+  "schema": "human-capability-card/v1",
+  "type": "human_operator",
+  "display_name": "Human Agent Operator",
+  "jurisdiction": "United Kingdom",
+  "service_area": [
+    "London",
+    "United Kingdom",
+    "remote"
+  ],
+  "modes": [
+    "remote",
+    "in_person",
+    "hybrid"
+  ],
+  "availability": "open_to_paid_tasks",
+  "engagement": [
+    "one_off",
+    "recurring"
+  ],
+  "capabilities": [
+    "physical_observation",
+    "verification",
+    "photography",
+    "video_evidence",
+    "local_research",
+    "reconnaissance",
+    "telephone_communication",
+    "human_to_human_communication",
+    "website_testing",
+    "app_testing",
+    "product_testing",
+    "human_feedback",
+    "research",
+    "writing",
+    "editing",
+    "administrative_tasks",
+    "document_collection",
+    "lawful_errands",
+    "attendance",
+    "pickup_dropoff"
+  ],
+  "task_requirements": {
+    "required_fields": [
+      "description",
+      "desired_outcome",
+      "deadline",
+      "budget",
+      "deliverables_or_evidence",
+      "constraints"
+    ],
+    "acceptance": "human_may_accept_clarify_or_decline",
+    "payment": "agree_before_work_begins; escrow_preferred"
+  },
+  "boundaries": [
+    "no unlawful activity",
+    "no dangerous activity",
+    "no fraud or deception",
+    "no invasive privacy violations",
+    "no unrestricted credentials or private keys",
+    "regulated work requires appropriate authority and credentials"
+  ]
+}
